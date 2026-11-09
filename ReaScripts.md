@@ -24,6 +24,7 @@ Add following repositories before installing any Scripts
 
 | Repository | Package | Notes |
 | --- | --- | --- |
+| ACendan Scripts | Reaper Blog Smart Duplicate | --- |
 | DSG ReaScripts | DSG_Cartridge create track from Media Item.lua | --- |
 | RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 |
 | --- | js_ReaScriptAPI.ext | 1.310 |
