@@ -1,9 +1,10 @@
 ## Extensions
+Drop downloaded files in REAPER/UserPlugins directory
 | UserPlugins | Notes |
 | --- | --- |
-| [ReaPack](https://reapack.com/) | for newer distros install `libxml2_2.13.x86_64` binary |
+| [ReaPack](https://reapack.com/) (for newer distros install `libxml2_2.13.x86_64` binary) | package manager for managing third-party scripts and extensions |
 | [RKES (Reaper Keyboard Enhancement Scripts)](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/UserPlugins/reaper_RKES-x64.so) | fixes keyboard focus issues in JUCE plugins and adds helpful features |
-| [Plugin Picker by DSGDnB](https://dsgdnb.com/reaper-plugin-picker/) | plugin manager |
+| [Plugin Picker by DSGDnB](https://dsgdnb.com/reaper-plugin-picker/) + [Plugin Picker config](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/PluginPicker/config.json) (drop config.json in REAPER/PluginPicker directory) | plugin manager |
 | [SWS Extensions](https://sws-extension.org/) | adds advanced track management, loudness analysis, macro programming, and automation features |
 | js_ReaScriptAPI.ext | 1.310 |
 | reaper_imgui.ext | 0.10.0.5 |
