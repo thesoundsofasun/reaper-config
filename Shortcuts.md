@@ -80,18 +80,4 @@ Open **Actions → Show action list** and choose the section shown below. For **
 
 In the Main section, create each named action and add the commands in the order shown.
 
-### Computer MIDI Keyboard
-
-1. Virtual MIDI Keyboard: Send all input to VKB
-2. View: Show Virtual MIDI Keyboard
-
-### toggle record
-
-1. Transport: Record
-
-### Create a Cartidge track from Media item
-
-1. Item: Render items to new take
-2. DSG_Cartridge create track from Media Item.lua
-
-The exact keymap in Technical-details.zip also retains three unlabelled input records and the global F1 routing record.
+### maybe will add if i will add
