@@ -35,7 +35,7 @@ Open **Options → Preferences**. Follow the headings in the left-hand tree. Eac
 
 - Imported items **Off**
 - MIDI items **Off**
-- Recorded items **On**
+- Recorded items **Off**
 - Glued items **Off**
 
 ### Audio
