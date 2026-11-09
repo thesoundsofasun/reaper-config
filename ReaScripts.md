@@ -6,22 +6,29 @@ Drop downloaded files in REAPER/UserPlugins directory
 | [RKES (Reaper Keyboard Enhancement Scripts)](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/UserPlugins/reaper_RKES-x64.so) | fixes keyboard focus issues in JUCE plugins and adds helpful features |
 | [Plugin Picker by DSGDnB](https://dsgdnb.com/reaper-plugin-picker/) + [Plugin Picker config](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/PluginPicker/config.json) (drop config.json in REAPER/PluginPicker directory) | plugin manager |
 | [SWS Extensions](https://sws-extension.org/) | adds advanced track management, loudness analysis, macro programming, and automation features |
-| js_ReaScriptAPI.ext | 1.310 |
-| reaper_imgui.ext | 0.10.0.5 |
-
 
 ## Extensions → ReaPack
+Add following repositories before installing any Scripts
+## Repository URLs
 
-Install the matching Linux extensions before restoring actions that use them. The configured UserPlugins folder contains ReaPack, SWS, ReaImGui, js_ReaScriptAPI, RKES, Plugin Picker and SMB. In ReaPack, the following packages have installation receipts.
-
-| Package | Version |
+| Repository | URL |
 | --- | --- |
-| DSG_Cartridge create track from Media Item.lua | 1.1.1 |
-| ReaPack.ext | 1.2.6 |
-| RobU - MIDI Ex Machina.lua | 1.3.6 |
-| SMB | 0.5.1 |
-| js_ReaScriptAPI.ext | 1.310 |
-| reaper_imgui.ext | 0.10.0.5 |
+| BirdBird ReaScript Testing | https://raw.githubusercontent.com/Bird-Bird/ReaScript_Testing/main/index.xml |
+| NVSD_ItemView | https://raw.githubusercontent.com/novosadand/NVSD_ItemView/master/index.xml |
+| Sexan_Scripts | https://github.com/GoranKovac/ReaScripts/raw/master/index.xml |
+| Saike Tools | https://raw.githubusercontent.com/JoepVanlier/JSFX/master/index.xml |
+| Suzuki Scripts | https://github.com/Suzuki-Re/Suzuki-Scripts/raw/master/index.xml |
+| RobU Scripts | https://github.com/RobU23/ReaScripts/raw/master/index.xml |
+| DSG ReaScripts | https://github.com/Sakhnovkrg/DSG_ReaScripts/raw/master/index.xml |
+| FTC Tools | https://raw.githubusercontent.com/iliaspoulakis/Reaper-Tools/master/index.xml |
+| ACendan Scripts | https://acendan.github.io/reascripts/index.xml |
+
+| Repository | Package | Notes |
+| --- | --- |
+| DSG ReaScripts | DSG_Cartridge create track from Media Item.lua |
+| RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 |
+| --- | js_ReaScriptAPI.ext | 1.310 |
+| --- | reaper_imgui.ext | 0.10.0.5 |
 
 ## Actions and windows supplied by extensions
 
