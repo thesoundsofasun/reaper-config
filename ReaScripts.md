@@ -30,13 +30,11 @@ Add following repositories before installing any Scripts
 | ReaTeam Extensions | ReaImGui: ReaScript binding for Dear ImGui | API |
 | RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 |
 | --- | js_ReaScriptAPI.ext | 1.310 |
-| --- | reaper_imgui.ext | 0.10.0.5 |
 
 ## Actions and windows supplied by extensions
 
 - **RKES** — Alt+B toggles the virtual keyboard. The saved settings enable focus-independent Space, exclusive arm and exclusive solo.
 - **MPL RS5k manager** — Shift+D starts the background script in Main. Restore the MPL Scripts folder and its registered actions.
 - **Plugin Picker** — F1 opens the picker. The saved layout uses five columns, alphabetical order, instruments first and floating plug-in windows.
-- **SMB** — Floating toolbar 3 opens the sample browser. Select the saved aesthetic-haze(SMB) theme. The sample root must point to the destination’s sample directory.
 - **Adaptive Grid and GridBox** — Scripts/__startup.lua invokes both FTC tools when REAPER starts.
 - **Cartridge** — Ctrl+Alt+C in Main runs the custom action documented in Shortcuts. The external Cartridge plug-in must be installed.
