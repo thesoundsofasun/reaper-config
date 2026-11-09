@@ -60,6 +60,8 @@ The available controls depend on **Audio system:**. The snapshots establish thes
 ### Audio → Recording
 
 - Show preview of recording items while recording, update frequency: **30 Hz**
+- Recorded filenames: **`$track - $recpass00`**
+- In-project MIDI items: **`$track-MIDI - $recpass00`**
 
 **Prompt to save/delete/rename new files:**
 
@@ -134,7 +136,5 @@ Open a MIDI item. Set **Automatically correct overlapping notes** to **On**.
 The following values are recorded in the configured profile. Their presence alone does not establish a manual change. Check them only when reproducing the same device or filename behaviour.
 
 - **Audio → Buffering → Audio reading/processing threads:** 6. The thread count can depend on the CPU and auto-detection.
-- **Audio → Recording → Recorded filenames:** `$track - $recpass00`
-- **Audio → Recording → In-project MIDI items:** `$track-MIDI - $recpass00`
 
 For records without a verified on-screen instruction, open [Technical-details.zip](Technical-details.zip). It contains the full comparison, optional configuration files and the evidence behind the preference checklist. Both source archives were compared directly.
