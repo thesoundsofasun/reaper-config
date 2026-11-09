@@ -60,12 +60,12 @@ The available controls depend on **Audio system:**. The snapshots establish thes
 ### Audio → Recording
 
 - Show preview of recording items while recording, update frequency: **30 Hz**
-- Recorded filenames: **`$track - $recpass00`**
-- In-project MIDI items: **`$track-MIDI - $recpass00`**
 
 **Prompt to save/delete/rename new files:**
-
 - on stop **Off**
+--------------------------------------------------------
+- Recorded filenames: **`$track - $recpass00`**
+- In-project MIDI items: **`$track-MIDI - $recpass00`**
 
 ### Appearance → Ruler/Grid
 
