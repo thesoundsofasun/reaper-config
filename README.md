@@ -1,6 +1,4 @@
-# Rebuild my REAPER setup
-
-REAPER 7.83 · Linux · English interface
+# REAPER config for Linux
 
 [Preferences](#preferences) · [Main window and MIDI editor](#main-window-and-midi-editor) · [Shortcuts and custom actions](Shortcuts.md) · [Themes, toolbars and extensions](Workspace.md)
 
