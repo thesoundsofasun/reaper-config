@@ -28,7 +28,7 @@ Open **Actions → Show action list** and choose the section shown below. For **
 | Add | H | FX: Show/hide track/take envelope for last touched FX parameter |
 | Remove | Alt+B | View: Show Virtual MIDI Keyboard |
 | Add | Alt+B | RKES: Toggle Virtual MIDI Keyboard |
-| Add | F1 | Plugin Picker: Toggle |
+| Add | F1(global +) | Plugin Picker: Toggle |
 | Remove | Ctrl+D | Item: Duplicate items |
 | Add | Ctrl+D | Script: acendan_reaperblog_Duplicate items or tracks depending on focus and time selection.lua |
 | Add | Shift+D | Script: mpl_RS5k manager (background).lua |
