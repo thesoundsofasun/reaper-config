@@ -1,6 +1,6 @@
 # REAPER config for Linux
 
-[Preferences](#preferences) · [Main window and MIDI editor](#main-window-and-midi-editor) · [Shortcuts and custom actions](Shortcuts.md) · [Themes, toolbars and extensions](Workspace.md)
+[Scripts and UserPlugins](ReaScripts.md) [Preferences](#preferences) · [Main window and MIDI editor](#main-window-and-midi-editor) · [Shortcuts and custom actions](Shortcuts.md) · [Themes, toolbars and extensions](Workspace.md)
 
 ## Extensions → ReaPack
 
