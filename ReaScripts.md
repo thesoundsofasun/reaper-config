@@ -14,7 +14,6 @@ Add following repositories before installing any Scripts
 | Repository | URL |
 | --- | --- |
 | BirdBird ReaScript Testing | https://raw.githubusercontent.com/Bird-Bird/ReaScript_Testing/main/index.xml |
-| NVSD_ItemView | https://raw.githubusercontent.com/novosadand/NVSD_ItemView/master/index.xml |
 | Sexan_Scripts | https://github.com/GoranKovac/ReaScripts/raw/master/index.xml |
 | Saike Tools | https://raw.githubusercontent.com/JoepVanlier/JSFX/master/index.xml |
 | Suzuki Scripts | https://github.com/Suzuki-Re/Suzuki-Scripts/raw/master/index.xml |
@@ -24,8 +23,8 @@ Add following repositories before installing any Scripts
 | ACendan Scripts | https://acendan.github.io/reascripts/index.xml |
 
 | Repository | Package | Notes |
-| --- | --- |
-| DSG ReaScripts | DSG_Cartridge create track from Media Item.lua |
+| --- | --- | --- |
+| DSG ReaScripts | DSG_Cartridge create track from Media Item.lua | --- |
 | RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 |
 | --- | js_ReaScriptAPI.ext | 1.310 |
 | --- | reaper_imgui.ext | 0.10.0.5 |
