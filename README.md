@@ -104,10 +104,6 @@ The available controls depend on **Audio system:**. The snapshots establish thes
 
 - Default shape for CC segments: **Bezier**
 
-### Media → MIDI
-
-- MIDI octave name display offset: **0 octaves**
-
 ### Plug-ins
 
 
