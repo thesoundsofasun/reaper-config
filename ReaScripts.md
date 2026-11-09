@@ -1,3 +1,14 @@
+## Extensions
+| UserPlugins | Notes |
+| --- | --- |
+| [ReaPack](https://reapack.com/) | for newer distros install `libxml2_2.13.x86_64` binary |
+| [RKES (Reaper Keyboard Enhancement Scripts)](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/UserPlugins/reaper_RKES-x64.so) | fixes keyboard focus issues in JUCE plugins and adds helpful features |
+| [Plugin Picker by DSGDnB](https://dsgdnb.com/reaper-plugin-picker/) | plugin manager |
+| [SWS Extensions](https://sws-extension.org/) | adds advanced track management, loudness analysis, macro programming, and automation features |
+| js_ReaScriptAPI.ext | 1.310 |
+| reaper_imgui.ext | 0.10.0.5 |
+
+
 ## Extensions → ReaPack
 
 Install the matching Linux extensions before restoring actions that use them. The configured UserPlugins folder contains ReaPack, SWS, ReaImGui, js_ReaScriptAPI, RKES, Plugin Picker and SMB. In ReaPack, the following packages have installation receipts.
