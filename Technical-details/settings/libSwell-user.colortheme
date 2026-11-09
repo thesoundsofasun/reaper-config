@@ -1,0 +1,134 @@
+; Graphite Studio | Aesthetichaze
+; Based on your supplied libSwell theme.
+; SF Pro Text must already be installed to use this font.
+
+default_font_face SF Pro Text
+default_font_size 12
+menubar_height 26
+menubar_font_size 13
+menubar_spacing_width 16
+menubar_margin_width 8
+scrollbar_width 12
+scrollbar_min_thumb_height 20
+combo_height 20
+
+; Window surfaces
+_3dface #28282a
+_3dshadow #1c1c1e
+_3dhilight #3a3a3c
+_3ddkshadow #141416
+
+; Buttons
+button_bg #323235
+button_text #dadade
+button_text_disabled #78787f
+button_shadow #242426
+button_hilight #404044
+
+; Checkboxes
+checkbox_text #dadade
+checkbox_text_disabled #78787f
+checkbox_fg #00a9f2
+checkbox_inter #8e8e93
+checkbox_bg #202022
+
+; Scrollbars
+scrollbar #59595f
+scrollbar_fg #59595f
+scrollbar_bg #252527
+
+; Text inputs
+edit_cursor #f2f2f7
+edit_bg #202022
+edit_bg_disabled #28282a
+edit_text #dadade
+edit_text_disabled #78787f
+edit_bg_sel #245879
+edit_text_sel #e8e8ea
+edit_hilight #39393d
+edit_shadow #39393d
+
+; Tooltips
+info_bk #3a3a3c
+info_text #f2f2f7
+
+; Popup menus
+menu_bg #2c2c2f
+menu_shadow #1c1c1e
+menu_hilight #454548
+menu_text #ededf0
+menu_text_disabled #78787f
+menu_bg_sel #12678e
+menu_text_sel #e8e8ea
+menu_scroll #3a3a3c
+menu_scroll_arrow #b0b0b6
+menu_submenu_arrow #b0b0b6
+
+; Menu bar
+menubar_bg #28282a
+menubar_text #dadade
+menubar_text_disabled #78787f
+menubar_bg_sel #12678e
+menubar_text_sel #e8e8ea
+
+; Sliders and progress
+trackbar_track #1c1c1e
+trackbar_mark #77777e
+trackbar_knob #d1d1d6
+progress #00a9f2
+
+; Labels
+label_text #dadade
+label_text_disabled #78787f
+
+; Combo boxes
+combo_text #dadade
+combo_text_disabled #78787f
+combo_bg #323235
+combo_bg2 #323235
+combo_shadow #242426
+combo_hilight #404044
+combo_arrow #c7c7cc
+combo_arrow_press #ffffff
+
+; Lists and column headers
+listview_bg #202022
+listview_bg_sel #245879
+listview_text #dadade
+listview_text_sel #e8e8ea
+listview_grid #303033
+listview_hdr_arrow #c7c7cc
+listview_hdr_shadow #202022
+listview_hdr_hilight #38383c
+listview_hdr_bg #2c2c2f
+listview_hdr_text #b8b8bf
+
+; Trees
+treeview_text #dadade
+treeview_bg #202022
+treeview_bg_sel #245879
+treeview_text_sel #e8e8ea
+treeview_arrow #a1a1a6
+
+; Tabs, groups and keyboard focus
+tab_shadow #1c1c1e
+tab_hilight #414145
+tab_text #dadade
+focusrect #00a9f2
+group_text #b8b8bf
+group_shadow #303033
+group_hilight #303033
+focus_hilight #00a9f2
+
+; Distinguish the active browser from a selection in a background window.
+listview_bg_sel_inactive #37414a
+treeview_bg_sel_inactive #37414a
+listview_text_sel_inactive #d5d8dc
+treeview_text_sel_inactive #d5d8dc
+listview_shadow #29292c
+treeview_shadow #29292c
+listview_hilight #303033
+treeview_hilight #303033
+menu_submenu_arrow_sel #e8e8ea
+menubar_text_inactive #acaeb3
+menubar_bg_inactive #28282a
