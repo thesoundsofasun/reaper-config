@@ -32,6 +32,7 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 
 ## Main
 
+- REMOVE following entries:
 | Change | Toolbar Entries | Action | Icon |
 | --- | --- | --- | --- |
 | Remove | New Project | File: New Project | `toolbar_new.png` |
@@ -41,11 +42,19 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | Remove | Redo | Edit: Redo| `toolbar_redo.png |
 | Remove | Marquee selection | Mouse Modifiers: Toggle arrange view override mouse modifiers A | `toolbar_marquee_cursor_selection.png` and `toolbar_marquee_cursor_selection_off.png` |
 | Remove | Razor editing | Mouse Modifiers: Toggle arrange view override mouse modifiers B | `toolbar_razor_off.png` |
-| Add | Toolbar: Open/close toolbar 1 | Toolbar: Open/close toolbar 1 | `toolbar_misc_up_previous.png` |
-| Add | Envelope: Toggle show all active envelopes for all tracks | Envelope: Toggle show all active envelopes for all tracks (MIDI CC relative/mousewheel) | `toolbar_envelope_show.png` |
-| Add | Script: mpl_LearnEditor.lua | Script: mpl_LearnEditor.lua | `toolbar_knob_parameter_visible_show.png` |
-| Add | Script: mpl_ModulationEditor.lua | Script: mpl_ModulationEditor.lua | `RTH_Shape_Sine.png` |
-| Add | RKES: Toggle Virtual MIDI Keyboard | RKES: Toggle Virtual MIDI Keyboard | `toolbar_misc_keyboard.png` |
+
+- Add and Leave following entries:
+| Order Position | Change | Toolbar Entries | Action | Icon |
+| --- | --- | --- | --- | --- |
+| **1** | Add | Toolbar: Open/close toolbar 1 | Toolbar: Open/close toolbar 1 | `RTH_Tab_Top.png` |
+| **2** | Add | -------- | -------- |  |
+| **3** | Leave | Project Settings | File: Project Settings... | `toolbar_projprop.png` |
+| **4** | Leave | Enable Metronome | Options: Toggle metronome | `toolbar_metronone.png` and `toolbar_metronone_off.png`|
+
+| --- | Add | Envelope: Toggle show all active envelopes for all tracks | Envelope: Toggle show all active envelopes for all tracks (MIDI CC relative/mousewheel) | `toolbar_envelope_show.png` |
+| --- | Add | Script: mpl_LearnEditor.lua | Script: mpl_LearnEditor.lua | `toolbar_knob_parameter_visible_show.png` |
+| --- | Add | Script: mpl_ModulationEditor.lua | Script: mpl_ModulationEditor.lua | `RTH_Shape_Sine.png` |
+| --- | Add | RKES: Toggle Virtual MIDI Keyboard | RKES: Toggle Virtual MIDI Keyboard | `toolbar_misc_keyboard.png` |
 
 
 
