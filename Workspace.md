@@ -36,17 +36,18 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | Change | Toolbar Entries | Action | Icon |
 | --- | --- | --- | --- |
 | Remove | New Project | File: New Project | toolbar_new.png |
-| Remove | Open Project | View: Zoom horizontally (MIDI CC relative/mousewheel) | toolbar_new.png |
-| Remove | Save Project | View: Scroll horizontally (MIDI CC relative/mousewheel) |
-| Remove | Marquee selection | View: Adjust selected track heights (MIDI CC relative/mousewheel) |
-| Remove | Undo | View: Scroll horizontally reversed (MIDI CC relative/mousewheel) |
-| Remove | Redo | View: Zoom vertically (MIDI CC relative/mousewheel) |
-| Remove | Razor editing | View: Zoom horizontally (MIDI CC relative/mousewheel) |
-| Add | Toolbar: Open/close toolbar 1 | View: Adjust selected track heights (MIDI CC relative/mousewheel) |
-| Add | Envelope: Toggle show all active envelopes for all tracks | View: Adjust selected track heights (MIDI CC relative/mousewheel) |
-| Add | Script: mpl_LearnEditor.lua | View: Adjust selected track heights (MIDI CC relative/mousewheel) |
-| Add | Script: mpl_ModulationEditor.lua | View: Adjust selected track heights (MIDI CC relative/mousewheel) |
-| Add | RKES: Toggle Virtual MIDI Keyboard | View: Adjust selected track heights (MIDI CC relative/mousewheel) |
+| Remove | Open Project | File: New Project | toolbar_new.png |
+| Remove | Save Project | File: Save Project | toolbar_save.png |
+| Remove | Undo | Edit: Undo | toolbar_undo.png |
+| Remove | Redo | Edit: Redo| toolbar_redo.png |
+| Remove | Marquee selection | Mouse Modifiers: Toggle arrange view override mouse modifiers A | toolbar_marquee_cursor_selection.png and toolbar_marquee_cursor_selection_off.png |
+| Remove | Razor editing | Mouse Modifiers: Toggle arrange view override mouse modifiers B | toolbar_razor_off.png |
+
+| Add | Toolbar: Open/close toolbar 1 | View: Adjust selected track heights (MIDI CC relative/mousewheel) | --- |
+| Add | Envelope: Toggle show all active envelopes for all tracks | View: Adjust selected track heights (MIDI CC relative/mousewheel) | --- |
+| Add | Script: mpl_LearnEditor.lua | View: Adjust selected track heights (MIDI CC relative/mousewheel) | --- |
+| Add | Script: mpl_ModulationEditor.lua | View: Adjust selected track heights (MIDI CC relative/mousewheel) | --- |
+| Add | RKES: Toggle Virtual MIDI Keyboard | View: Adjust selected track heights (MIDI CC relative/mousewheel) | --- |
 
 
 
