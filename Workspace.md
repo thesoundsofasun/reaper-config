@@ -2,16 +2,22 @@
 
 ## Options → Themes
 
-*  **Installation steps:**
+*   **Installation steps:**
   - Download [Reapertips Theme](https://reapertips.com/products/reapertips-theme) and [AEHAZE Theme Tweaks](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/ColorThemes/AEHAZE%20Theme%20Tweaks.zip)
   - Extract `Reapertips Theme.ReaperThemeZip` theme archive
   - Drop files from `AEHAZE Theme Tweaks.zip` into extracted folder 
   - Execute `run.sh` script inside of extracted Reapertips Theme folder
   - Select newly created `AEHAZE folder` and `AEHAZE.ReaperTheme` file and compress them into `AEHAZE.zip` archive
   - Rename `AEHAZE.zip` archive to `AEHAZE.ReaperThemeZip` and place in `REAPER/ColorThemes` directory
+  - Download matching `[libSwell-user.colortheme](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/libSwell-user.colortheme)` and drop it in REAPER folder
 
-*   **Theme Adjuster / Color Controls:** TCP/MCP scaling, element visibility rules.
-*   **Linux/libSwell:** `libSwell-user.colortheme` fonts and OS-level overrides.
+*   **Theme Adjuster / Color Controls:**
+    - Global Settings:
+      - Color Controls: SHADOWS: -0.15
+
+
+TCP/MCP scaling, element visibility rules.
+
 
 ## Options → Layouts
 *(If you use specific layouts per track rather than just global theme settings)*
