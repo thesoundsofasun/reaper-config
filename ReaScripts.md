@@ -13,6 +13,7 @@ Add following repositories before installing any Scripts
 
 | Repository | URL |
 | --- | --- |
+| AEHAZE Scripts | https://github.com/thesoundsofasun/reaper-scripts/raw/master/index.xml |
 | BirdBird ReaScript Testing | https://raw.githubusercontent.com/Bird-Bird/ReaScript_Testing/main/index.xml |
 | Sexan_Scripts | https://github.com/GoranKovac/ReaScripts/raw/master/index.xml |
 | Saike Tools | https://raw.githubusercontent.com/JoepVanlier/JSFX/master/index.xml |
@@ -25,7 +26,10 @@ Add following repositories before installing any Scripts
 | Repository | Package | Notes |
 | --- | --- | --- |
 | ACendan Scripts | Reaper Blog Smart Duplicate | Action (Utility) |
+| AEHAZE Scripts | RKS |
 | DSG ReaScripts | DSG_Cartridge create track from Media Item | Action (Items Editing) |
+| MPL | LearnEditor | Script |
+| MPL | Modulation | Script |
 | MPL | RS5k manager | FX specific |
 | ReaTeam Extensions | ReaImGui: ReaScript binding for Dear ImGui | API |
 | RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 |
