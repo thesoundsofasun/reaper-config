@@ -32,18 +32,20 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 
 ## Main
 
-- REMOVE following entries:
+- **Remove** following entries:
+
 | Change | Toolbar Entries | Action | Icon |
 | --- | --- | --- | --- |
 | Remove | New Project | File: New Project | `toolbar_new.png` |
 | Remove | Open Project | File: New Project | `toolbar_new.png` |
 | Remove | Save Project | File: Save Project | `toolbar_save.png` |
-| Remove | Undo | Edit: Undo | `toolbar_undo.png |
-| Remove | Redo | Edit: Redo| `toolbar_redo.png |
+| Remove | Undo | Edit: Undo | `toolbar_undo.png` |
+| Remove | Redo | Edit: Redo| `toolbar_redo.png` |
 | Remove | Marquee selection | Mouse Modifiers: Toggle arrange view override mouse modifiers A | `toolbar_marquee_cursor_selection.png` and `toolbar_marquee_cursor_selection_off.png` |
 | Remove | Razor editing | Mouse Modifiers: Toggle arrange view override mouse modifiers B | `toolbar_razor_off.png` |
 
-- Add and Leave following entries:
+- **Add** and **Leave** following entries:
+
 | Order Position | Change | Toolbar Entries | Action | Icon |
 | --- | --- | --- | --- | --- |
 | **1** | Add | Toolbar: Open/close toolbar 1 | Toolbar: Open/close toolbar 1 | `RTH_Tab_Top.png` |
