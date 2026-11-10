@@ -1,0 +1,121 @@
+; Graphite / macOS-inspired dark appearance
+; Based on your supplied libSwell theme.
+; SF Pro Text must already be installed to use this font.
+
+default_font_face SF Pro Text
+default_font_size 13
+menubar_height 26
+menubar_font_size 13
+menubar_spacing_width 16
+menubar_margin_width 8
+scrollbar_width 12
+scrollbar_min_thumb_height 20
+combo_height 20
+
+; Window surfaces
+_3dface #28282a
+_3dshadow #1c1c1e
+_3dhilight #3a3a3c
+_3ddkshadow #141416
+
+; Buttons
+button_bg #3a3a3c
+button_text #ededf0
+button_text_disabled #77777e
+button_shadow #202022
+button_hilight #48484b
+
+; Checkboxes
+checkbox_text #e5e5e8
+checkbox_text_disabled #77777e
+checkbox_fg #e5e5e8
+checkbox_inter #8e8e93
+checkbox_bg #202022
+
+; Scrollbars
+scrollbar #78787e
+scrollbar_fg #78787e
+scrollbar_bg #222224
+
+; Text inputs
+edit_cursor #f2f2f7
+edit_bg #1c1c1e
+edit_bg_disabled #262628
+edit_text #ededf0
+edit_text_disabled #77777e
+edit_bg_sel #285f9e
+edit_text_sel #ffffff
+edit_hilight #414145
+edit_shadow #151517
+
+; Tooltips
+info_bk #3a3a3c
+info_text #f2f2f7
+
+; Popup menus
+menu_bg #2c2c2e
+menu_shadow #1c1c1e
+menu_hilight #454548
+menu_text #ededf0
+menu_text_disabled #77777e
+menu_bg_sel #0868ce
+menu_text_sel #ffffff
+menu_scroll #3a3a3c
+menu_scroll_arrow #b0b0b6
+menu_submenu_arrow #b0b0b6
+
+; Menu bar
+menubar_bg #28282a
+menubar_text #ededf0
+menubar_text_disabled #77777e
+menubar_bg_sel #0868ce
+menubar_text_sel #ffffff
+
+; Sliders and progress
+trackbar_track #1c1c1e
+trackbar_mark #77777e
+trackbar_knob #d1d1d6
+progress #0a84ff
+
+; Labels
+label_text #e5e5e8
+label_text_disabled #77777e
+
+; Combo boxes
+combo_text #ededf0
+combo_text_disabled #77777e
+combo_bg #363638
+combo_bg2 #363638
+combo_shadow #202022
+combo_hilight #48484b
+combo_arrow #c7c7cc
+combo_arrow_press #ffffff
+
+; Lists and column headers
+listview_bg #202022
+listview_bg_sel #285f9e
+listview_text #e5e5e8
+listview_text_sel #ffffff
+listview_grid #303033
+listview_hdr_arrow #c7c7cc
+listview_hdr_shadow #202022
+listview_hdr_hilight #414145
+listview_hdr_bg #303032
+listview_hdr_text #dedee3
+
+; Trees
+treeview_text #e5e5e8
+treeview_bg #202022
+treeview_bg_sel #285f9e
+treeview_text_sel #ffffff
+treeview_arrow #a1a1a6
+
+; Tabs, groups and keyboard focus
+tab_shadow #1c1c1e
+tab_hilight #414145
+tab_text #e5e5e8
+focusrect #64aaff
+group_text #dedee3
+group_shadow #202022
+group_hilight #3a3a3c
+focus_hilight #0a84ff
