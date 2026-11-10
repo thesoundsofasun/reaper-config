@@ -66,29 +66,7 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | **16** | Add | -------- | -------- |  |
 | **17** | Add | RKES: Toggle Virtual MIDI Keyboard | RKES: Toggle Virtual MIDI Keyboard | `toolbar_misc_keyboard.png` |
 
-
-
-
-
-### Main toolbar
-
-**Remove the following default buttons:**
-- New Project
-- Open Project
-- Save Project
-- Marquee selection
-- Undo
-- Redo
-- Razor editing
-
-**Add the following actions:**
-- Toolbar: Open/close toolbar 1 → **Icon: `toolbar_misc_up_previous.png`**
-- Envelope: Toggle show all active envelopes for all tracks
-- Script: mpl_LearnEditor.lua 
-- Script: mpl_ModulationEditor.lua → **Icon: `RTH_Shape_Sine.png`** *(From Reatips pack)*
-- Script: HPRSSN Hidden VKB: Toggle → **Icon: `toolbar_misc_keyboard.png`** *(Replaces the Computer MIDI Keyboard action)*
-
-### Floating toolbar 1
+## Floating toolbar 1
 
 **Add the following actions:**
 - Script: BirdBird_Item Modifiers.lua
