@@ -48,13 +48,21 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | --- | --- | --- | --- | --- |
 | **1** | Add | Toolbar: Open/close toolbar 1 | Toolbar: Open/close toolbar 1 | `RTH_Tab_Top.png` |
 | **2** | Add | -------- | -------- |  |
-| **3** | Leave | Project Settings | File: Project Settings... | `toolbar_projprop.png` |
-| **4** | Leave | Enable Metronome | Options: Toggle metronome | `toolbar_metronone.png` and `toolbar_metronone_off.png`|
-
-| --- | Add | Envelope: Toggle show all active envelopes for all tracks | Envelope: Toggle show all active envelopes for all tracks (MIDI CC relative/mousewheel) | `toolbar_envelope_show.png` |
-| --- | Add | Script: mpl_LearnEditor.lua | Script: mpl_LearnEditor.lua | `toolbar_knob_parameter_visible_show.png` |
-| --- | Add | Script: mpl_ModulationEditor.lua | Script: mpl_ModulationEditor.lua | `RTH_Shape_Sine.png` |
-| --- | Add | RKES: Toggle Virtual MIDI Keyboard | RKES: Toggle Virtual MIDI Keyboard | `toolbar_misc_keyboard.png` |
+| **3** | Leave | Project settings... | File: Project settings... | `toolbar_projprop.png` |
+| **4** | Leave | Enable metronome | Options: Toggle metronome | `toolbar_metronone.png` and `toolbar_metronone_off.png`|
+| **5** | Leave | Enable auto-crossfade | Options: Auto-crossfade media items when editing | `toolbar_xfade.png` and `toolbar_xfade_off.png`|
+| **6** | Leave | Enable item grouping and track media/razor edit grouping | Options: Toggle item grouping and tack media/razor edit grouping | `toolbar_group.png` |
+| **7** | Leave | Toggle ripple editing | Options: Toggle ripple editing on/off | `toolbar_ripple.png` and `toolbar_ripple_off.png`|
+| **8** | Leave | Show arrange view grid | Options: Toggle grid lines | `toolbar_grid.png` and `toolbar_grid_off.png`|
+| **9** | Leave | Enable snapping | Options: Toggle snapping | `toolbar_snap.png` and `toolbar_snap_off.png`|
+| **10** | Leave | Enable locking | Options: Toggle locking | `toolbar_lock.png` and `toolbar_lock_off.png`|
+| **11** | Leave | Move envelope points with media items | Options: Move envelope points with media items | `toolbar_envitem.png` and `toolbar_envitem_off.png`|
+| **12** | Add | -------- | -------- |  |
+| **13** | Add | Envelope: Toggle show all active envelopes for all tracks | Envelope: Toggle show all active envelopes for all tracks (MIDI CC relative/mousewheel) | `toolbar_envelope_show.png` |
+| **14** | Add | Script: mpl_LearnEditor.lua | Script: mpl_LearnEditor.lua | `toolbar_knob_parameter_visible_show.png` |
+| **15** | Add | Script: mpl_ModulationEditor.lua | Script: mpl_ModulationEditor.lua | `RTH_Shape_Sine.png` |
+| **16** | Add | -------- | -------- |  |
+| **17** | Add | RKES: Toggle Virtual MIDI Keyboard | RKES: Toggle Virtual MIDI Keyboard | `toolbar_misc_keyboard.png` |
 
 
 
