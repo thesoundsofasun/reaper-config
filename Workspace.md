@@ -12,18 +12,17 @@ Use the **Options** menu or right-click the specific panels to apply these visua
 
 ## Themes & Theme Adjuster
 *   **Installation steps:**
-  - Download [Reapertips Theme](https://reapertips.com/products/reapertips-theme) and [AEHAZE Theme Tweaks](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/ColorThemes/AEHAZE%20Theme%20Tweaks.zip)
-  - Extract `Reapertips Theme.ReaperThemeZip` theme archive
-  - Drop files from `AEHAZE Theme Tweaks.zip` into extracted folder 
-  - Execute `run.sh` script inside of extracted Reapertips Theme folder
-  - Select newly created `AEHAZE folder` and `AEHAZE.ReaperTheme` file and compress them into `AEHAZE.zip` archive
-  - Rename `AEHAZE.zip` archive to `AEHAZE.ReaperThemeZip` and place in `REAPER/ColorThemes` directory
-  - Download matching `[libSwell-user.colortheme](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/libSwell-user.colortheme)` and drop it in REAPER folder
+     - Download [Reapertips Theme](https://reapertips.com/products/reapertips-theme) and [AEHAZE Theme Tweaks](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/ColorThemes/AEHAZE%20Theme%20Tweaks.zip)
+     - Extract `Reapertips Theme.ReaperThemeZip` theme archive
+     - Drop files from `AEHAZE Theme Tweaks.zip` into extracted folder 
+     - Execute `run.sh` script inside of extracted Reapertips Theme folder
+     - Select newly created `AEHAZE folder` and `AEHAZE.ReaperTheme` file and compress them into `AEHAZE.zip` archive
+     - Rename `AEHAZE.zip` archive to `AEHAZE.ReaperThemeZip` and place in `REAPER/ColorThemes` directory
+     - Download matching `[libSwell-user.colortheme](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/libSwell-user.colortheme)` and drop it in REAPER folder
 
-### Open **Options → Themes → Theme Adjuster / Color Controls**. Apply the following settings for the **AEHAZE** theme:
-
-- Color Controls
-  - Tint: **-15**
+*    **Options → Themes → Theme Adjuster / Color Controls**. 
+     - Color Controls
+        - Tint: **-15**
 ---
 
 ## Customize menus/toolbars
