@@ -1,5 +1,15 @@
 # Interface and Workspace Customization
 
+## Layouts and Visual Positioning (Main Window & Mixer)
+
+Use the **Options** menu or right-click the specific panels to apply these visual tweaks:
+
+- Mixer: Master Track Show on the right side of the mixer: **On**
+- Mixer: Show multiple rows of tracks when size permits: **Off**
+- Options: Show FX inserts in TCP (when size permits): **On**
+- Options: Show sends in TCP (when size permits): **On**
+- Options: Show all takes (when room): **Off** *(Disable this option)*
+
 ## Options → Themes
 
 *   **Installation steps:**
@@ -11,80 +21,105 @@
   - Rename `AEHAZE.zip` archive to `AEHAZE.ReaperThemeZip` and place in `REAPER/ColorThemes` directory
   - Download matching `[libSwell-user.colortheme](https://github.com/thesoundsofasun/reaper-config/blob/main/REAPER/libSwell-user.colortheme)` and drop it in REAPER folder
 
-*   **Theme Adjuster / Color Controls:**
-    - Global Settings:
-      - Color Controls: SHADOWS: -0.15
+## Theme Adjuster
 
+Open **Options → Themes → Theme Adjuster / Color Controls**. Apply the following settings for the **Aesthetichaze + Reapertips** theme:
 
-TCP/MCP scaling, element visibility rules.
+### Color Controls
+- Tint: **-40**
 
+### Track Control Panel (TCP)
+- Folder Indent / Balance Type: **1** (Standard)
+- FX Pin: **Visible** (Layout A)
 
-## Options → Layouts
-*(If you use specific layouts per track rather than just global theme settings)*
-*   **Track Panel:** (e.g., setting a default to 'A', 'B', or 'Large')
-*   **Mixer Panel:** (e.g., setting the default Mixer layout)
-*   **Master Mixer:** (e.g., hiding/showing the master fader on the right side)
-
-## Options → Customize menus/toolbars
-*(You already have a great start here. Don't forget you can also document standard right-click menus here!)*
-*   **Main toolbar**
-*   **Floating toolbars 1-16**
-*   **MIDI piano roll toolbar**
-*   **Context Menus:** (e.g., customizing `TCP context`, `Media item context`, `Ruler context` to remove clutter or add custom scripts).
-
-## Options → Preferences... → General → Advanced UI/System tweaks
-*   **HiDPI / Scaling:** Custom UI scaling settings (e.g., forcing 1.0 or 1.5 scaling).
-*   **OS-specific tweaks:** (Linux/Windows specific rendering settings stored in `reaper.ini`).
-
-## Options → Preferences... → Appearance
-*   **Media item labels:** (e.g., Drawing labels above items rather than inside them).
-*   **Solid edges:** Tweaks for how media items are drawn.
-*   **Track Control Panels:** Tinting rules (e.g., "Tint track panel backgrounds", "Tint TCP/MCP").
-*   **VU Meters/Faders:** Meter update frequency, meter colors, fader behavior.
-*   **Peaks/Waveforms:** Custom waveform colors, filled vs. outlined waveforms.
-
-## View → Screensets/Layouts
-*(You have this section. This is where you map your `reaper-screensets.ini`)*
-*   **Windows (Tab):** Layouts of docked/floating windows.
-*   **Track Views (Tab):** Saved zoom levels and track heights.
-
-## View → Transport
-*(If this is toggled on/off, but more importantly, its positioning which happens via right-click)*
-*   **Visibility:** Toggle on/off.
-
-## View → Dockers (Multiple Dockers)
-*   **Main Docker positioning:** (e.g., docked at the bottom for Mixer, docked at the left for Media Explorer).
-*   **Preventing auto-docking:** (Documenting holding Ctrl/Cmd to float windows freely).
-
-## Track → Track colors / Track icon
-*   **Default colors/icons:** How manual coloring is applied (or deferred to SWS).
-*   **Icon directories:** Path to `<REAPER Resource Path>/Data/track_icons`.
-
-## Extensions → Auto Color/Icon/Layout (SWS)
-*(If you use the SWS extension, this is a massive part of a custom UI workflow)*
-*   **Rule Setup:** (e.g., "If track name contains *Drum*, set color to *Red*, icon to *drum.png*, layout to *B*").
-*   **SWS Options:** Enabling auto-color tracking.
-
-## Actions → Show action list (Hidden UI Tweaks)
-*(Some visual tweaks only exist as Actions)*
-*   **Theme development: Show theme tweak/configuration window:** (This is the crucial "Theme Tweaker" where you change WALTER fonts, grid line colors, edit cursor colors, and time selection highlight colors. Stored in the `.ReaperTheme` file).
+### Mixer Control Panel (MCP)
+- Folder Indent / Balance Type: **1** (Standard)
+- Mixer Divider Opacity: **79%**
+- Meter Values: **Visible** (Layout A)
+- Meter Values when selected: **Visible** (Layout A)
 
 ---
 
-## Context-Specific Positioning (Right-Click Menus)
-*(Since positioning isn't always in a top menu, it's best to have a section dedicated to Right-Click behaviors)*
+## Window Docking and Workspaces
 
-### [Right-Click] Transport Bar
-*   **Position:** Docked top, Docked bottom, Floating, or inside Main Docker.
-*   **Layout:** Center transport controls (on/off).
-*   **Visibility:** Show/hide play rate, time signature, playback state.
+Open the following windows from the **View** menu (or Action list) and right-click their title tabs to position them:
 
-### [Right-Click] Any Toolbar
-*   **Position:** Frameless floating, Docked at top/bottom of main window, Docked in MIDI editor.
+- **Mixer**: Right-click tab → **Dock Mixer in Docker**
+- **Undo History**: Right-click tab → **Dock in Docker**
+- **Screensets/Layouts**: Once everything is positioned, open **View → Screensets/Layouts**, go to the **Windows** tab, select slot **4**, and click **Save**. Name it **Default screen set**.
 
-### [Right-Click] Mixer Control Panel (MCP) Master
-*   **Layout:** Show folders on left side.
-*   **Rows:** Show multiple rows of tracks when size permits.
+---
 
-### [Right-Click] Window Tabs (Docker Management)
-*   **Attached position:** (Right-clicking a tab at the bottom to attach the docker to the Left/Right/Top/Bottom of the main screen).
+## Customize menus/toolbars
+
+Open **Options → Customize menus/toolbars**. Select the target toolbar from the dropdown in the top left. Click **Add...** to insert the actions in order. Right-click an action in the list to change its icon. **Separator** means click **Add separator**.
+
+### Main toolbar
+
+- Toolbar: Open/close toolbar 1 → **Icon: `toolbar_misc_up_previous.png`**
+- **Separator**
+- Project settings... → *(Text Icon)*
+- Enable metronome → *(Text Icon)*
+- Enable auto-crossfade → *(Text Icon)*
+- Enable item grouping and track media/razor edit grouping → *(Text Icon)*
+- Toggle ripple editing → *(Text Icon)*
+- Show arrange view grid → *(Text Icon)*
+- Enable snapping → *(Text Icon)*
+- Enable locking → *(Text Icon)*
+- Move envelope points with media items → *(Text Icon)*
+- **Separator**
+- Envelope: Toggle show all active envelopes for all tracks → **Icon: `toolbar_envelope_show.png`**
+- Script: mpl_LearnEditor.lua → **Icon: `toolbar_knob_parameter_visible_show.png`**
+- Script: mpl_ModulationEditor.lua → **Icon: `RTH_Shape_Sine.png`**
+- **Separator**
+- View: Toggle mixer visible → **Icon: `toolbar_window_tab_mixer_tcp.png`**
+- Script: NVSD_ItemView.lua → **Icon: `toolbar_audio_waveform.png`**
+- View: Toggle show MIDI editor windows → **Icon: `toolbar_window_tab_midi_editor.png`**
+- **Separator**
+- HPRSSN Hidden VKB: Toggle → **Icon: `toolbar_misc_keyboard.png`**
+
+### Floating toolbar 1
+
+- Script: BirdBird_Item Modifiers.lua → **Icon: `toolbar_item_selected_cut_scissors.png`**
+- Item: Quantize item positions to grid... → **Icon: `toolbar_quant_off.png`**
+- Duplicate → **Icon: Text Icon (Wide)**
+- Reverse → **Icon: Text Icon (Wide)**
+- Glue → **Icon: Text Icon (Normal)**
+- **Separator**
+- Script: /2 → *(Text Icon)*
+- Script: 2x → *(Text Icon)*
+- Calculate transient guides → *(Text Icon)*
+- Clear transient guides → *(Text Icon)*
+
+### Floating toolbar 3
+
+- SMB: Toggle media browser → **Icon: `toolbar_window_tab_docker_show.png`**
+
+### MIDI piano roll toolbar
+
+- Options: Preview notes when inserting or editing → **Icon: `toolbar_misc_phones.png`**
+- Save (.mid source only) → *(Text Icon)*
+- Revert (.mid source only) → *(Text Icon)*
+- Piano roll → *(Text Icon)*
+- Named notes → *(Text Icon)*
+- Event list → *(Text Icon)*
+- Musical notation → *(Text Icon)*
+- Rectangular notes (normal mode) → *(Text Icon)*
+- Triangular notes (drum mode) → *(Text Icon)*
+- Diamond notes (drum mode) → *(Text Icon)*
+- Filter → *(Text Icon)*
+- Track List → *(Text Icon)*
+- CC selection follows note selection → *(Text Icon)*
+- Show grid → *(Text Icon)*
+- Snap to grid → *(Text Icon)*
+- Step sequencing: use all MIDI inputs for step recording → *(Text Icon)*
+- View: Zoom to content → **Icon: `toolbar_midi_zoom.png`**
+- **Separator**
+- Quantize → *(Text Icon)*
+- Duplicate → **Icon: Text Icon (Wide)**
+- Humanize → **Icon: Text Icon (Wide)**
+- Legato → **Icon: Text Icon (Wide)**
+- Script: /2 → **Icon: Text Icon (Normal)**
+- Script: x2 → *(Text Icon)*
+- **Separator**
+- Dock editor → *(Text Icon)*
