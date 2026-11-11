@@ -51,14 +51,14 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | **1** | Add | Toolbar: Open/close toolbar 1 | Toolbar: Open/close toolbar 1 | `RTH_Tab_Top.png` |
 | **2** | Add | -------- | -------- |  |
 | **3** | Leave | Project settings... | File: Project settings... | `toolbar_projprop.png` |
-| **4** | Leave | Enable metronome | Options: Toggle metronome | `toolbar_metronone.png` and `toolbar_metronone_off.png`|
+| **4** | Leave | Enable metronome | Options: Toggle metronome | `toolbar_metronone.png` and `toolbar_metronone_off.png` |
 | **5** | Leave | Enable auto-crossfade | Options: Auto-crossfade media items when editing | `toolbar_xfade.png` and `toolbar_xfade_off.png`|
 | **6** | Leave | Enable item grouping and track media/razor edit grouping | Options: Toggle item grouping and tack media/razor edit grouping | `toolbar_group.png` |
-| **7** | Leave | Toggle ripple editing | Options: Toggle ripple editing on/off | `toolbar_ripple.png` and `toolbar_ripple_off.png`|
-| **8** | Leave | Show arrange view grid | Options: Toggle grid lines | `toolbar_grid.png` and `toolbar_grid_off.png`|
-| **9** | Leave | Enable snapping | Options: Toggle snapping | `toolbar_snap.png` and `toolbar_snap_off.png`|
-| **10** | Leave | Enable locking | Options: Toggle locking | `toolbar_lock.png` and `toolbar_lock_off.png`|
-| **11** | Leave | Move envelope points with media items | Options: Move envelope points with media items | `toolbar_envitem.png` and `toolbar_envitem_off.png`|
+| **7** | Leave | Toggle ripple editing | Options: Toggle ripple editing on/off | `toolbar_ripple.png` and `toolbar_ripple_off.png` |
+| **8** | Leave | Show arrange view grid | Options: Toggle grid lines | `toolbar_grid.png` and `toolbar_grid_off.png` |
+| **9** | Leave | Enable snapping | Options: Toggle snapping | `toolbar_snap.png` and `toolbar_snap_off.png` |
+| **10** | Leave | Enable locking | Options: Toggle locking | `toolbar_lock.png` and `toolbar_lock_off.png` |
+| **11** | Leave | Move envelope points with media items | Options: Move envelope points with media items | `toolbar_envitem.png` and `toolbar_envitem_off.png` |
 | **12** | Add | -------- | -------- |  |
 | **13** | Add | Envelope: Toggle show all active envelopes for all tracks | Envelope: Toggle show all active envelopes for all tracks (MIDI CC relative/mousewheel) | `toolbar_envelope_show.png` |
 | **14** | Add | Script: mpl_LearnEditor.lua | Script: mpl_LearnEditor.lua | `toolbar_knob_parameter_visible_show.png` |
@@ -66,16 +66,19 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | **16** | Add | -------- | -------- |  |
 | **17** | Add | RKES: Toggle Virtual MIDI Keyboard | RKES: Toggle Virtual MIDI Keyboard | `toolbar_misc_keyboard.png` |
 
-## Floating toolbar 1
-
-**Add the following actions:**
-- Script: BirdBird_Item Modifiers.lua
-- Script: acendan_reaperblog_Duplicate items or tracks depending on focus and time selection.lua → **Text Icon: `Duplicate`**
-- Item: Glue items, ignoring time selection → **Text Icon: `Glue`**
-- Item properties: Toggle take reverse → **Text Icon: `Reverse`**
-- Script: Stretch selected media items by x0.5.lua → **Text Icon: `/2`**
-- Script: Stretch selected media items by x2.lua → **Text Icon: `x2`**
-- Item: Quantize item positions to grid... → **Icon: `toolbar_quant_off.png`**
+## Floating toolbar 1 (Toolbar 1)
+| Order Position | Change | Toolbar Entries | Action | Icon |
+| --- | --- | --- | --- | --- |
+| **1** | Add | Script: BirdBird_Item Modifiers.lua | Script: BirdBird_Item Modifiers.lua | `toolbar_item_selected_cut_scissors.png` |
+| **2** | Add | Item: Quantize item positions to grid... | Item: Quantize item positions to grid... | `toolbar_quant.png` and `toolbar_quant_off.png` |
+| **3** | Add | Duplicate | Script: acendan_reaperblog_Duplicate items or tracks depending on focus and time selection.lua |  **Text Icon: `Duplicate`** |
+| **4** | Add | Reverse | Item properties: Toggle take reverse |  **Text Icon: `Reverse`** |
+| **5** | Add | Glue | Item: Glue items, ignoring time selection |  **Text Icon: `Glue`** |
+| **6** | Add | -------- | -------- |  |
+| **7** | Add | /2 | Stretch selected media items by x0.5.lua | **Text Icon: `/2`** |
+| **8** | Add | 2x | Script: Stretch selected media items by x2.lua | **Text Icon: `x2`**|
+| **9** | Add | Calculate transient guides | Options: Toggle snapping | |
+| **10** | Add | Clear transient guides | Options: Toggle locking | |
 
 ### MIDI piano roll toolbar
 
