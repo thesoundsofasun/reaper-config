@@ -23,16 +23,17 @@ Add following repositories before installing any Scripts
 | FTC Tools | https://raw.githubusercontent.com/iliaspoulakis/Reaper-Tools/master/index.xml |
 | ACendan Scripts | https://acendan.github.io/reascripts/index.xml |
 
-| Repository | Package | Notes |
-| --- | --- | --- |
-| ACendan Scripts | Reaper Blog Smart Duplicate | Action (Utility) |
-| AEHAZE Scripts | RKS |
-| DSG ReaScripts | DSG_Cartridge create track from Media Item | Action (Items Editing) |
-| MPL | LearnEditor | Script |
-| MPL | Modulation | Script |
-| MPL | RS5k manager | FX specific |
-| ReaTeam Extensions | ReaImGui: ReaScript binding for Dear ImGui | API |
-| RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 |
+| Repository | Package | Notes | Mapping |
+| --- | --- | --- | --- |
+| ACendan Scripts | Reaper Blog Smart Duplicate | Action (Utility) | **Key: `Ctrl+D`** **`Toolbar 1`** |
+| AEHAZE Scripts | RKES | Extension | **Key: `Alt+B`** **`Main toolbar`** |
+| BirdBird ReaScript Testing | Item Modifiers | Script | **`Toolbar 1`** |
+| DSG ReaScripts | DSG_Cartridge create track from Media Item | Action (Items Editing) | **`Key: `Ctrl+Alt+C`** |
+| MPL | LearnEditor | Script | **`Main toolbar`** |
+| MPL | Modulation | Script | **`Main toolbar`** |
+| MPL | RS5k manager | FX specific | **`Key: `Shift+D`** |
+| ReaTeam Extensions | ReaImGui: ReaScript binding for Dear ImGui | API | - |
+| RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 | **`none`** |
 | --- | js_ReaScriptAPI.ext | 1.310 |
 
 ## Actions and windows supplied by extensions
