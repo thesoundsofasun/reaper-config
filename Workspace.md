@@ -71,12 +71,12 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | --- | --- | --- | --- | --- |
 | **1** | Add | Script: BirdBird_Item Modifiers.lua | Script: BirdBird_Item Modifiers.lua | `toolbar_item_selected_cut_scissors.png` |
 | **2** | Add | Item: Quantize item positions to grid... | Item: Quantize item positions to grid... | `toolbar_quant.png` and `toolbar_quant_off.png` |
-| **3** | Add | Duplicate | Script: acendan_reaperblog_Duplicate items or tracks depending on focus and time selection.lua |  **Text Icon: `Duplicate`** |
-| **4** | Add | Reverse | Item properties: Toggle take reverse |  **Text Icon: `Reverse`** |
-| **5** | Add | Glue | Item: Glue items, ignoring time selection |  **Text Icon: `Glue`** |
+| **3** | Add | Duplicate | Script: acendan_reaperblog_Duplicate items or tracks depending on focus and time selection.lua |  **Text double-wide icon: `Duplicate`** |
+| **4** | Add | Reverse | Item properties: Toggle take reverse |  **Text double-wide icon: `Reverse`** |
+| **5** | Add | Glue | Item: Glue items, ignoring time selection |  **Text double-wide icon: `Glue`** |
 | **6** | Add | -------- | -------- |  |
-| **7** | Add | /2 | Stretch selected media items by x0.5.lua | **Text Icon: `/2`** |
-| **8** | Add | 2x | Script: Stretch selected media items by x2.lua | **Text Icon: `x2`**|
+| **7** | Add | /2 | Stretch selected media items by x0.5.lua | **Text icon: `/2`** |
+| **8** | Add | 2x | Script: Stretch selected media items by x2.lua | **Text icon: `x2`**|
 | **9** | Add | Calculate transient guides | Options: Toggle snapping | |
 | **10** | Add | Clear transient guides | Options: Toggle locking | |
 
