@@ -27,6 +27,8 @@ Add following repositories before installing any Scripts
 | --- | --- | --- | --- |
 | ACendan Scripts | Reaper Blog Smart Duplicate | Action (Utility) | **Key: `Ctrl+D`** **`Toolbar 1`** |
 | AEHAZE Scripts | RKES | Extension | **Key: `Alt+B`** **`Main toolbar`** |
+| AEHAZE Scripts | Stretch selected media items by x0.5 | Script | **`Toolbar 1`** |
+| AEHAZE Scripts | Stretch selected media items by x2 | Script | **`Toolbar 1`** |
 | BirdBird ReaScript Testing | Item Modifiers | Script | **`Toolbar 1`** |
 | DSG ReaScripts | DSG_Cartridge create track from Media Item | Action (Items Editing) | **`Key: `Ctrl+Alt+C`** |
 | MPL | LearnEditor | Script | **`Main toolbar`** |
