@@ -77,8 +77,9 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | **6** | Add | -------- | -------- |  |
 | **7** | Add | /2 | Stretch selected media items by x0.5.lua | **Text icon: `/2`** |
 | **8** | Add | 2x | Script: Stretch selected media items by x2.lua | **Text icon: `x2`**|
-| **9** | Add | Calculate transient guides | Options: Toggle snapping | |
-| **10** | Add | Clear transient guides | Options: Toggle locking | |
+| **9** | Add | -------- | -------- |  |
+| **10** | Add | Calculate transient guides | Options: Toggle snapping | |
+| **11** | Add | Clear transient guides | Options: Toggle locking | |
 
 ### MIDI piano roll toolbar
 
