@@ -84,14 +84,29 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 ## MIDI piano roll toolbar
 | Order Position | Change | Toolbar Entries | Action | Icon |
 | --- | --- | --- | --- | --- |
-| **1** | Add | Options: Preview notes when inserting or editing | Options: Preview notes when inserting or editing | `toolbar_misc_phones.png` |
-| **17** | Add | View: Zoom to content | View: Zoom to content | `toolbar_midi_zoom.png` |
-| **18** | Add | -------- | -------- |  |
-| **19** | Move | Quantize | Quantize... | `toolbar_quant.png` and `toolbar_quant_off.png` |
-| **20** | Add | Duplicate | Edit: Duplicate events within time selection | **Text double-wide icon: `Duplicate`** |
-| **21** | Add | Humanize | Humanize notes... | **Text double-wide icon: `Humanize`** |
-| **22** | Add | Legato | Set note ends to start of next note (legato) | **Text double-wide icon: `Legato`** |
-| **23** | Add | /2 | Script: mpl_Stretch selected MIDI notes positions by x0.5.lua | **Text icon: `/2`** |
-| **24** | Add | x2 | Script: mpl_Stretch selected MIDI notes positions by x2.lua | **Text icon: `/2`** |
-| **25** | Add | -------- | -------- |  |
-| **26** | Move | Dock editor | Options: Toggle window docking | `toolbar_dock.png` and `toolbar_dock_off.png` |
+| **1** | **Add** | Options: Preview notes when inserting or editing | Options: Preview notes when inserting or editing | `toolbar_misc_phones.png` |
+| **2** | *Leave* | Save (.mid source only) | File: Save file (MIDI file mode only) or project (in-project MIDI mode) | `toolbar_save.png` |
+| **3** | *Leave* | Revert (.mid source only) | File: Revert file (MIDI file mode only) | `toolbar_revert.png` |
+| **4** | *Leave* | Piano roll | Mode: Piano Roll | `toolbar_midi_mode_piano_roll.png` |
+| **5** | *Leave* | Named notes | Mode: Named Notes (Drum Map) | `toolbar_midi_mode_named_notes.png` |
+| **6** | *Leave* | Even list | Mode: Event List | `toolbar_midi_mode_event_list.png` |
+| **7** | *Leave* | Musical notation | Mode: Notation | `toolbar_treble_clef_note.png` |
+| **8** | *Leave* | Rectangular notes (normal mode) | View: Show events as rectangles (normal mode) | `toolbar_midi_events_mode_normal_rectangle.png` |
+| **9** | *Leave* | Triangular notes (drum mode) | View: Show events as triangles (drum mode) | `toolbar_midi_events_mode_drum_triangle.png` |
+| **10** | *Leave* | Diamond notes (drum mode) | View: Show events as diamonds (drum mode) | `toolbar_midi_events_mode_drum_diamond.png` |
+| **11** | *Leave* | Filter | Filter: Enable/disable event filter and show/hide filter window... | `toolbar_filter.png` and `toolbar_filter_off.png` |
+| **12** | *Leave* | Track List | Contents: Show/hide track list | `toolbar_midi_tracksel_off.png` |
+| **13** | *Leave* | CC Selection follows note selection | Options: CC selection follows note selection | `toolbar_envitem.png` and `toolbar_envitem_off.png` |
+| **14** | *Leave* | Show grid | View: Toggle grid | `toolbar_grid.png` |
+| **15** | *Leave* | Snap to grid | View: Toggle snap to grid | `toolbar_snap.png` and `toolbar_snap_off.png` |
+| **16** | *Leave* | Step sequencing: use all MIDI inputs for step recording | - | `toolbar_midi_step.png` |
+| **17** | **Add** | View: Zoom to content | View: Zoom to content | `toolbar_midi_zoom.png` |
+| **18** | **Add** | -------- | -------- |  |
+| **19** | *Leave* | Quantize | Quantize... | `toolbar_quant.png` and `toolbar_quant_off.png` |
+| **20** | **Add** | Duplicate | Edit: Duplicate events within time selection | **Text double-wide icon: `Duplicate`** |
+| **21** | **Add** | Humanize | Humanize notes... | **Text double-wide icon: `Humanize`** |
+| **22** | **Add** | Legato | Set note ends to start of next note (legato) | **Text double-wide icon: `Legato`** |
+| **23** | **Add** | /2 | Script: mpl_Stretch selected MIDI notes positions by x0.5.lua | **Text icon: `/2`** |
+| **24** | **Add** | x2 | Script: mpl_Stretch selected MIDI notes positions by x2.lua | **Text icon: `/2`** |
+| **25** | **Add** | -------- | -------- |  |
+| **26** | *Leave* | Dock editor | Options: Toggle window docking | `toolbar_dock.png` and `toolbar_dock_off.png` |
