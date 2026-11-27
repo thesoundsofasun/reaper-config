@@ -88,9 +88,9 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | **17** | Add | View: Zoom to content | View: Zoom to content | `toolbar_midi_zoom.png` |
 | **18** | Add | -------- | -------- |  |
 | **19** | Move | Quantize | Quantize... | `toolbar_quant.png` and `toolbar_quant_off.png` |
-| **20** | Add | Duplicate | Edit: Duplicate events within time selection | **Text icon: `Duplicate`** |
-| **21** | Add | Humanize | Humanize notes... | **Text icon: `Humanize`** |
-| **22** | Add | Legato | Set note ends to start of next note (legato) | **Text icon: `Legato`** |
+| **20** | Add | Duplicate | Edit: Duplicate events within time selection | **Text double-wide icon: `Duplicate`** |
+| **21** | Add | Humanize | Humanize notes... | **Text double-wide icon: `Humanize`** |
+| **22** | Add | Legato | Set note ends to start of next note (legato) | **Text double-wide icon: `Legato`** |
 | **23** | Add | /2 | Script: mpl_Stretch selected MIDI notes positions by x0.5.lua | **Text icon: `/2`** |
 | **24** | Add | x2 | Script: mpl_Stretch selected MIDI notes positions by x2.lua | **Text icon: `/2`** |
 | **25** | Add | -------- | -------- |  |
