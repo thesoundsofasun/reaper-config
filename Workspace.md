@@ -81,13 +81,17 @@ Open **Options → Customize menus/toolbars**. Select the target toolbar from th
 | **10** | Add | Calculate transient guides | Options: Toggle snapping | |
 | **11** | Add | Clear transient guides | Options: Toggle locking | |
 
-### MIDI piano roll toolbar
-
-**Add the following actions:**
-- Options: Preview notes when inserting or editing → **Icon: Headphones**
-- Script: Stretch selected MIDI notes positions by x0.5 MPL → **Text Icon: `/2`**
-- Script: Stretch selected MIDI notes positions by x2 MPL → **Text Icon: `x2`**
-- Set note ends to start of next note (legato) → **Text Icon: `Legato`**
-- Edit: Duplicate events within time selection → **Text Icon: `Duplicate`**
-- Humanize notes... → **Text Icon: `Humanize`**
-- View: Zoom to content → **Icon: `toolbar_midi_zoom.png`**
+## MIDI piano roll toolbar
+| Order Position | Change | Toolbar Entries | Action | Icon |
+| --- | --- | --- | --- | --- |
+| **1** | Add | Options: Preview notes when inserting or editing | Options: Preview notes when inserting or editing | `toolbar_misc_phones.png` |
+| **17** | Add | View: Zoom to content | View: Zoom to content | `toolbar_midi_zoom.png` |
+| **18** | Add | -------- | -------- |  |
+| **19** | Move | Quantize | Quantize... | `toolbar_quant.png` and `toolbar_quant_off.png` |
+| **20** | Add | Duplicate | Edit: Duplicate events within time selection | **Text icon: `Duplicate`** |
+| **21** | Add | Humanize | Humanize notes... | **Text icon: `Humanize`** |
+| **22** | Add | Legato | Set note ends to start of next note (legato) | **Text icon: `Legato`** |
+| **23** | Add | /2 | Script: mpl_Stretch selected MIDI notes positions by x0.5.lua | **Text icon: `/2`** |
+| **24** | Add | x2 | Script: mpl_Stretch selected MIDI notes positions by x2.lua | **Text icon: `/2`** |
+| **25** | Add | -------- | -------- |  |
+| **26** | Move | Dock editor | Options: Toggle window docking | `toolbar_dock.png` and `toolbar_dock_off.png` |
