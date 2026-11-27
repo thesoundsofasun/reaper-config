@@ -34,6 +34,8 @@ Add following repositories before installing any Scripts
 | MPL | LearnEditor | Script | **`Main toolbar`** |
 | MPL | Modulation | Script | **`Main toolbar`** |
 | MPL | RS5k manager | FX specific | **`Key: `Shift+D`** |
+| MPL | Stretch seletected MIDI notes positions by x0.5 | MIDI Editor | **`MIDI piano roll toolbar`** |
+| MPL | Stretch seletected MIDI notes positions by x2 | MIDI Editor | **`MIDI piano roll toolbar`** |
 | ReaTeam Extensions | ReaImGui: ReaScript binding for Dear ImGui | API | - |
 | RobU Scripts | RobU - MIDI Ex Machina.lua | 1.3.6 | **`none`** |
 | --- | js_ReaScriptAPI.ext | 1.310 |
